@@ -14,6 +14,18 @@ public class Circulo{
 		this.x = c.x;
 		this.y = c.y;
 	}
+	public void setX(float x) {
+		this.x = x; 
+	}
+	public void setY(float y) {
+		this.y = y; 
+	}
+	public float getX() {
+		return this.x; 
+	}
+	public float setY() {
+		return this.y; 
+	}
 	
 	public String toString() {
 		return ("X: "+this.x+"\nY: "+this.y);
