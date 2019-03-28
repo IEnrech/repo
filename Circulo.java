@@ -1,6 +1,7 @@
 public static void main(String args[]) {
 	Circulo c = new Circulo();
 	Circulo c2 = new Circulo(5.0,5.0);
+	Circulo c3 = new Circulo(c2);
 }
 public class Circulo{
 	private float x; 
